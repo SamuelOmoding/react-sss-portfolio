@@ -7,6 +7,7 @@ import html from '../assets/html.png';
 import psql from '../assets/psql.png';
 import ubuntu from '../assets/ubuntu.png';
 import github from '../assets/github.png';
+import tailwind from '../assets/Tailwind CSS .jpeg';
 
 const Experience = () => {
 
@@ -64,6 +65,12 @@ const Experience = () => {
             src: github,
             title: 'GITHUB',
             style: 'shadow-black'
+        },
+        {
+            id: 9,
+            src: tailwind,
+            title: 'TAILWIND CSS',
+            style: 'shadow-blue-300'
         },
     ]
   return (
