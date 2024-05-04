@@ -51,9 +51,9 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold
            text-white">{`Hi! I'm Samuel, a`} <span className="text-4xl sm:text-7xl font-bold) txt-rotate" data-rotate='["Frontend Web Developer", "Web Designer", "Graphic Designer"]'><span className="wrap">{text}</span></span></h2>
           <p className='text-white w-half px-4 py-3 my-1 flex items-center rounded-md bg-gradient-to-r'>
-            I have 1 year of experience building and developing/designing software.
+           { `I've 1 year of experience building and developing/designing software.
             Currently, I love to work on web application using technologies like React,
-            Tailwind, and HTML.
+            Tailwind, and HTML.`}
           </p>
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>

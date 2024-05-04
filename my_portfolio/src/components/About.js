@@ -11,7 +11,7 @@ const About = () => {
             border-gray-500">About</p>
         </div>
         <p className="text-xl mt-20">
-         I am a dynamic individual with a passion for frontend 
+       {  `I'm a dynamic individual with a passion for frontend 
           web development, web design, and graphic design. 
           With a background in building and developing software, 
           he brings over a year of experience to the table. 
@@ -21,7 +21,7 @@ const About = () => {
           continually strives to deliver visually stunning and 
           user-friendly experiences. My dedication to his craft, 
           coupled with his diverse skill set, makes me a valuable asset 
-          to any project or team.      
+          to any project or team.`  }    
         </p>
     </div>
   </div>

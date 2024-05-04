@@ -7,6 +7,7 @@ import psql from '../assets/psql.png';
 import ubuntu from '../assets/ubuntu.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/Tailwind CSS .jpeg';
+import python from '../assets/Python.jpeg';
 
 const Experience = () => {
 
@@ -71,7 +72,14 @@ const Experience = () => {
             title: 'TAILWIND CSS',
             style: 'shadow-blue-300'
         },
+        {
+            id: 10,
+            src: python,
+            title: 'PYTHON',
+            style: 'shadow-yellow-500'
+        },
     ]
+
   return (
     <div 
     name='experience' 
