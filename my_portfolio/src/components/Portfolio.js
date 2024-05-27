@@ -1,5 +1,5 @@
 // import React from 'react'
-import nexin from '../assets/nexinltd.png';
+import uzuri from '../assets/uzuri_ltd.png';
 import markdown from '../assets/markdowntopdf.png';
 import vendors from '../assets/vendors.png';
 import navbar from '../assets/navbar.png';
@@ -11,8 +11,8 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            src: nexin,
-            href: 'https://nexinnltd.vercel.app/'     
+            src: uzuri,
+            href: 'https://uzuri-ltd-dashboard-sp64.vercel.app/'     
         },
         {
             id: 2,

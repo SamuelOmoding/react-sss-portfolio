@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02d679f4.css",
+    "main.js": "/static/js/main.ea99aa63.js",
+    "static/media/nyumbani.png": "/static/media/nyumbani.876bd63c7cb17701302e.png",
+    "static/media/bookstore.png": "/static/media/bookstore.9faf4dbc271bfdce3a89.png",
+    "static/media/uzuri_ltd.png": "/static/media/uzuri_ltd.2f96a554194ad3f51905.png",
+    "static/media/IMG_27701.jpg": "/static/media/IMG_27701.22a8201610ee69117a30.jpg",
+    "static/media/markdowntopdf.png": "/static/media/markdowntopdf.e63a4eb724cf973d12c0.png",
+    "static/media/navbar.png": "/static/media/navbar.a160b28a22f30759a25a.png",
+    "static/media/psql.png": "/static/media/psql.3044fd648e4fdce66181.png",
+    "static/media/vendors.png": "/static/media/vendors.c73d6c2414492522d822.png",
+    "static/media/react.png": "/static/media/react.4ead0ee41d8d4ce3459b.png",
+    "static/media/ubuntu.png": "/static/media/ubuntu.ecea4dcb549d3218e0dc.png",
+    "index.html": "/index.html",
+    "main.02d679f4.css.map": "/static/css/main.02d679f4.css.map",
+    "main.ea99aa63.js.map": "/static/js/main.ea99aa63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02d679f4.css",
+    "static/js/main.ea99aa63.js"
+  ]
+}
