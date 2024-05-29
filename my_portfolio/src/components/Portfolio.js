@@ -17,7 +17,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: markdown,
-            href: 'https://app.screencastify.com/v2/manage/videos/520TTgqjkyooEonGUQk3',
+            href: 'https://drive.google.com/file/d/175Pxl9zbpultrMXDohY77A_E1rQ0E-pi/view?usp=drive_link',
         },
         {
             id: 3,

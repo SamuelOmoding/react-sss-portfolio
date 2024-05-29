@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import pic from '../assets/images/IMG_27701.jpg';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from 'react-scroll';
@@ -10,37 +10,38 @@ const Home = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Frontend Web Developer", "Web Designer", "Graphic Designer"];
   const period = 2000;
 
+  const toRotate = useMemo(() => ["Frontend Web Developer", "Web Designer", "Graphic Designer"], []);
+
   useEffect(() => {
+    const tick = () => {
+      let i = loopNum % toRotate.length;
+      let fullText = toRotate[i];
+      let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+
+      setText(updatedText);
+
+      if (isDeleting) {
+        setDelta(prevDelta => prevDelta / 2);
+      }
+
+      if (!isDeleting && updatedText === fullText) {
+        setIsDeleting(true);
+        setDelta(period);
+      } else if (isDeleting && updatedText === '') {
+        setIsDeleting(false);
+        setLoopNum(loopNum + 1);
+        setDelta(500);
+      }
+    };
+
     let ticker = setInterval(() => {
       tick();
     }, delta);
 
     return () => { clearInterval(ticker); };
-  }, [text, delta]);
-
-  const tick = () => {
-    let i = loopNum % toRotate.length;
-    let fullText = toRotate[i];
-    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
-
-    setText(updatedText);
-
-    if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2);
-    }
-
-    if (!isDeleting && updatedText === fullText) {
-      setIsDeleting(true);
-      setDelta(period);
-    } else if (isDeleting && updatedText === '') {
-      setIsDeleting(false);
-      setLoopNum(loopNum + 1);
-      setDelta(500);
-    }
-  };
+  }, [text, delta, isDeleting, loopNum, toRotate, period]);
 
   return (
     <div name="home" className='flex h-screen w-full bg-gradient-to-b from-black via-blue to-cyan-800'>
@@ -79,6 +80,8 @@ const Home = () => {
 };
 
 export default Home;
+
+
 
 
 // // import React from 'react';
