@@ -52,6 +52,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
+            <p className="p-4 flex justify-center text-gray-500">Copyright 2024. All Rights Reserved</p>
         </div>
     </div>
   );
