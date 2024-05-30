@@ -1,2 +1,0 @@
-# UZURI
-# UZURI_LTD
