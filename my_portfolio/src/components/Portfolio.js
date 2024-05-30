@@ -1,4 +1,3 @@
-// import React from 'react'
 import uzuri from '../assets/uzuri_ltd.png';
 import markdown from '../assets/markdowntopdf.png';
 import vendors from '../assets/vendors.png';

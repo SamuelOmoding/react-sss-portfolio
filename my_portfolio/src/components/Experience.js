@@ -1,4 +1,3 @@
-// import React from 'react'
 import js from '../assets/js.png';
 import css from '../assets/CSS.png';
 import react from '../assets/react.png';
