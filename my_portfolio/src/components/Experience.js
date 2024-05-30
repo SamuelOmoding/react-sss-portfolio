@@ -4,7 +4,7 @@ import react from '../assets/react.png';
 import node from '../assets/nodejs.png';
 import html from '../assets/html.png';
 import psql from '../assets/psql.png';
-import ubuntu from '../assets/ubuntu.png';
+// import ubuntu from '../assets/ubuntu.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/Tailwind CSS .jpeg';
 
@@ -52,21 +52,21 @@ const Experience = () => {
             style: 'shadow-blue-900'
 
         },
+        // {
+        //     id: 7,
+        //     src: ubuntu,
+        //     title: 'UBUNTU',
+        //     style: 'shadow-orange-700'
+
+        // },
         {
             id: 7,
-            src: ubuntu,
-            title: 'UBUNTU',
-            style: 'shadow-orange-700'
-
-        },
-        {
-            id: 8,
             src: github,
             title: 'GITHUB',
             style: 'shadow-black'
         },
         {
-            id: 9,
+            id: 8,
             src: tailwind,
             title: 'TAILWIND CSS',
             style: 'shadow-blue-300'
