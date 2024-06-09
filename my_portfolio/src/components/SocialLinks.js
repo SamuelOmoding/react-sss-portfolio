@@ -42,7 +42,7 @@ const SocialLinks = () => {
             </>
             ),
             href: '/MyResume.pdf',
-            style: 'rounded-br-md',
+            style: 'rounded-br-md hover:bg-red-900',
             download: true,
         },
     ];
