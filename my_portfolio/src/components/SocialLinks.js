@@ -12,7 +12,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'https://linkedin.com',
-            style: 'rounded-tr-md'
+            style: 'rounded-tr-md:bg-blue-800'
         },
         {
             id: 2,
@@ -31,6 +31,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'mailto:foo@gmail.com',
+            style: 'hover:bg-gray-600',
         },
         {
             id: 4,
@@ -39,7 +40,7 @@ const SocialLinks = () => {
             Resume <BsFillPersonLinesFill size={30}/>
             </>
             ),
-            href: '/Resume.pdf',
+            href: '/MyResume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
