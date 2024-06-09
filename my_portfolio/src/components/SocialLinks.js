@@ -22,6 +22,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'https://github.com/SamuelOmoding',
+            style: 'hover:bg-gray-900',
         },
         {
             id: 3,
