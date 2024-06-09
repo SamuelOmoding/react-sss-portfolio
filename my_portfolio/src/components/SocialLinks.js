@@ -12,7 +12,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'https://linkedin.com',
-            style: 'rounded-tr-md:bg-blue-800',
+            style: 'rounded-tr-md hover:bg-blue-800',
         },
         {
             id: 2,
